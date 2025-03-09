@@ -1,6 +1,6 @@
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import SGD, Adam, RMSprop, Nadam, Adadelta
+from keras._tf_keras.keras.models import Sequential
+from keras._tf_keras.keras.layers import Dense
+from keras._tf_keras.keras.optimizers import SGD, Adam, RMSprop, Nadam, Adadelta
 
 def build_model(optimizer='adam', learning_rate=0.001, hidden_layers=[128, 64]):
     model = Sequential()
