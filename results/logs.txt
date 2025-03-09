@@ -1,0 +1,50 @@
+PS D:\Repositorios\mnist_mlp> python -m src.main
+2025-03-08 21:33:00.292609: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To 
+turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-08 21:33:09.414657: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To 
+turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+Entrenando con SGD...
+D:\Programs\anaconda3\envs\Api\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-03-08 21:33:26.652012: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+Entrenando con ADAM...
+
+Entrenando con RMSPROP...
+
+Entrenando con NADAM...
+
+Entrenando con ADADELTA...
+263/263 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step  
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98       816
+           1       0.99      0.99      0.99       909
+           2       0.99      0.95      0.97       846
+           3       0.97      0.95      0.96       937
+           4       0.97      0.96      0.97       839
+           5       0.93      0.98      0.95       702
+           6       0.99      0.96      0.97       785
+           7       0.98      0.97      0.97       893
+           8       0.97      0.97      0.97       835
+           9       0.92      0.98      0.95       838
+
+    accuracy                           0.97      8400
+   macro avg       0.97      0.97      0.97      8400
+weighted avg       0.97      0.97      0.97      8400
+
+
+Confusion Matrix:
+[[801   0   1   2   0   4   2   1   1   4]
+ [  0 899   2   0   1   4   0   0   3   0]
+ [  2   7 800   9   7   3   0   6   6   6]
+ [  0   2   1 890   0  20   0   3   7  14]
+ [  3   0   1   0 804   1   4   1   0  25]
+ [  1   0   0   4   0 687   3   0   4   3]
+ [ 12   1   2   0   3  11 755   0   1   0]
+ [  0   0   4   3   3   1   0 866   3  13]
+ [  0   2   0   4   4   7   1   2 809   6]
+ [  3   1   0   1   4   2   0   8   0 819]]

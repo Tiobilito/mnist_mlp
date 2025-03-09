@@ -8,3 +8,8 @@
 {"timestamp": "20250308-202608", "optimizer": "rmsprop", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.9732}
 {"timestamp": "20250308-202639", "optimizer": "nadam", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.9751}
 {"timestamp": "20250308-202709", "optimizer": "adadelta", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.6907}
+{"timestamp": "20250308-213349", "optimizer": "sgd", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.8857}
+{"timestamp": "20250308-213414", "optimizer": "adam", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.9648}
+{"timestamp": "20250308-213435", "optimizer": "rmsprop", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.9744}
+{"timestamp": "20250308-213500", "optimizer": "nadam", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.9704}
+{"timestamp": "20250308-213525", "optimizer": "adadelta", "learning_rate": 0.001, "hidden_layers": [128, 64], "epochs": 20, "batch_size": 64, "val_accuracy": 0.6907}
