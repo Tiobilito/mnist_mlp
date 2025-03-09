@@ -1,4 +1,4 @@
-# Reporte de la Práctica 1: Perceptrón Multicapa para MNIST
+# Perceptrón Multicapa para MNIST
 
 ---
 
